@@ -1,0 +1,14 @@
+.persondropdown select {
+	border: 0 !important;  
+	-webkit-appearance: none;  
+	-moz-appearance: none; 
+	background: #1a8524 url(arrow.gif) no-repeat right;
+	width: 25%; 
+	text-indent: 0.01px; 
+	text-overflow: ""; 
+	hight: 25%; 
+  
+	
+	color: #FFF;
+	text-align: center;
+}

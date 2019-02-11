@@ -1,0 +1,9 @@
+
+						<form method="post" action="<?php $_SERVER['PHP_SELF']; ?>">			
+                      		<input type="text" name="title" placeholder="Titel" /> <br />
+                      		<textarea name="fulltextrecipe"placeholder="Uw recept"></textarea> <br />
+                      		<input type="text" name="keywords" placeholder="Tags (gescheiden door komma's)" /></br />
+                      		<input type="text" name="persons" placeholder="Hoeveel personen" /><br />
+                      		<input type="submit" name="submit" placeholder="Submit!" />
+													
+                      	</form>

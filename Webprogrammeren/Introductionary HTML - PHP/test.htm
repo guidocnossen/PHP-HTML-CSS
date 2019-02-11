@@ -1,0 +1,56 @@
+<!DOCTYPE HTML>
+
+<html>
+<head>
+<title>Untitled</title>
+<button onclick="myFunction()">Volgende</button>
+<SCRIPT LANGUAGE="JavaScript">
+<!-- Begin
+NewImg = new Array (
+"images/week2/smiley1.png",
+"images/week2/smiley2.png",
+"images/week2/smiley3.png",
+"images/week2/smiley4.png",
+"images/week2/smiley5.png" 
+);
+var ImgNum = 0;
+var ImgLength = NewImg.length - 1;
+//Time delay between Slides in milliseconds
+var delay = 3000;
+var lock = false;
+var run;
+function chgImg(direction) {
+if (document.images) {
+ImgNum = ImgNum + direction;
+if (ImgNum > ImgLength) {
+ImgNum = 0;
+}
+if (ImgNum < 0) {
+ImgNum = ImgLength;
+}
+document.slideshow.src = NewImg[ImgNum];
+   }
+}
+function auto() {
+if (lock == true) {
+lock = false;
+window.clearInterval(run);
+}
+else if (lock == false) {
+lock = true;
+run = setInterval("chgImg(1)", delay);
+  }
+}
+//  End -->
+</script>
+</head>
+<body>
+<img src="images/week2/smiley1.png" name="slideshow">
+<table>
+<tr>
+<td align="right"><a href="javascript:chgImg(-1)">Previous</a></td>
+<td align="left"><a href="javascript:chgImg(1)">Next</a></td>
+</tr>
+</table>
+</body>
+</html>

@@ -1,0 +1,63 @@
+<!DOCTYPE HTML>
+
+<html>
+<head>
+<title>Lezingen uploaden | It Typsk Frysk Congres</title>
+<link rel="icon" href="images/icoon.png" type="icoon/png">
+<link rel="stylesheet" href="stylesheet/styles.css">
+<script src="http://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
+<script src="javascripts/menu.js"></script>
+</head>
+<body>
+		<img class="logo" src="images/logo.png" border="0" alt="logo">
+		<hgroup>Wilhelminaplein 92 -- 8911 BS -- Leeuwarden</hgroup>				 
+<div id='menu'>
+<ul>
+   <li class='active'><a href='index.htm'><span>Homepagina</span></a></li>
+   <li class='has-sub'><a href='#'><span>Het congres van 2015</span></a>
+      <ul>
+         <li><a href='programma.htm'><span>Programma</span></a></li>
+         <li><a href='sprekers.htm'><span>Abstracts</span></a></li>
+         <li class='last'><a href='locatie.htm'><span>Locatie</span></a></li>
+      </ul>
+   </li>
+   <li class='has-sub'><a href='deelnemers.php'><span>Deelnemers</span></a>
+      <ul>
+         <li><a href='deelname.php'><span>Zelf aanmelden</span></a></li>
+         <li class='last'><a href='upload.htm'><span>Lezingen uploaden</span></a></li>
+      </ul>
+   </li>
+   <li class='last'><a href='contact.htm'><span>Contactgegevens</span></a></li>
+</ul>
+</div>
+<br></br>
+<div id="content">
+	  <div id="sidesection1">
+		</div>
+	  <div id="sidesection2">
+		</div> 
+ <div id="wrapper">
+		 <div id="section">
+		 			<h1>Upload hier uw lezing</h1>
+					
+					<hgroup>Als u zelf een bijdrage wilt leveren aan het congres en mensen
+					wilt inspiren met een eigen lezing, dan kunt u deze hier uploaden. Deelnemers en
+					liefhebbers van het congres kunnen op deze wijze uw lezing online bereiken.
+					Ook is er in het programma ruimte om enkele van deze geuploade lezingen
+					publiekelijk te doen!</hgroup>
+					<br></br>
+		 			<form action="uploadfiles.php" method="post" enctype="multipart/form-data">
+    						Selecteer een bestand om te uploaden:
+    						<input type="file" name="fileToUpload" id="fileToUpload">
+    						<input type="submit" value="Upload deze Lezing" name="submit">
+					</form>
+					<br></br>
+					<p>Mocht u geïnteresseerd zijn in lezingen die onlangs zijn geüpload
+					naar onze site, of wilt u kijken of uw lezing succesvol is geüpload, dan
+					kunt u <a href="sprekers.htm">hier</a> klikken.</p>
+		 </div> <!-- end of section div -->	
+		<img class="lezing" src="images/lezing.png" border="0" alt="logo">
+  </div> <!-- end of wrapper div -->	
+</div> <!-- end of content div -->	
+</body>
+</html>

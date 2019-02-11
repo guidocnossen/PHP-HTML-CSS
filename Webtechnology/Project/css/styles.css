@@ -1,0 +1,191 @@
+body{
+background-image: url(images/bg.jpg);
+}
+
+/* images used */
+img.restaurantlogo{
+display: block;
+margin-left: auto;
+margin-right: auto;
+width:80%
+}
+
+img.restaurant{
+display:block;
+margin:auto;
+width: 100%;
+}
+
+img.eten{
+display: block;
+margin:auto;
+width: 100%;
+}
+
+img.logo{
+display: block;
+margin-left:75%;
+width:4%
+}
+
+img.restaurantmenu{
+display: block;
+margin-left: auto;
+margin-right: auto;
+width:100%
+}
+
+@charset "UTF-8";
+/*  CSS example Menu - own adjustments */
+#menu,
+#menu ul,
+#menu li 
+#menu a {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 2px;
+  font-family: 'Germania one', cursive;
+	line-heigth:1;
+}
+
+#menu {
+	list-style: none;
+	width:100%;
+	position: relative;
+}
+
+#menu ul {
+ 	text-align: center; 
+  background: url(images/germanpattern.png)top left no-repeat,
+	url(images/germanpattern.png)top right no-repeat;
+  border: 1px solid black;
+	box-shadow: 0 3px 3px rgba(0, 0, 0, 0.3);
+	width:100%;
+}
+#menu ul:before {
+  content: '';
+  display: block;
+}
+#menu ul:after {
+  content: '';
+  display: table;
+}
+#menu a,
+#menu a:link,
+#menu a:visited {
+  display: inline-block;
+  text-decoration: none;
+	color: white;
+	text-shadow: 0px -1px 1px #000;
+	padding: 15px 20px;
+}
+
+#menu a:hover {
+  color: black;
+  text-shadow: 0.3em 0.5em 0.1em yellow,
+      -0.3em 0.1em 0.1em red,
+      0.4em -0.3em 0.1em black
+}
+#menu li {
+   display: inline;
+	 text-align: center;
+}
+
+/*h1, p , hgroup , list for text areas in site */
+H1{
+font-family: 'Germania One', cursive;
+color: white;
+padding: 2px;
+}
+hgroup{
+font-family:'Germania One', cursive;
+color: white;
+padding: 2px;
+font-size: 20px
+}
+
+P{
+font-family: 'Germania One', cursive;
+font-size: 18px;
+padding: 2px;
+color: white;
+}
+
+P1{
+font-family: 'Germania One', cursive;
+font-size: 10px;
+color: white;
+padding:20px;
+float: left;
+}
+
+li{
+font-family: 'Germania One', cursive;
+font-size: 18px;
+padding: 2px;
+list-style-type: none;
+color: white;
+}
+
+li a:link,
+li a:visited{
+  text-decoration: none;
+  color: white;
+}
+
+li a:hover{
+	 color: black;
+}
+
+/*tables - table1: contact, tabel2: openingstijden*/
+table{
+width: 75%;
+font-family: 'Germania One', cursive;
+font-size: 18px;
+color: white;
+}
+
+.email{
+	text-decoration:none;
+	color: white;
+}
+.email:hover{
+  color: black;
+}
+/* section */
+#section {
+	background: none repeat scroll 0 0 rgba(0, 0, 0, 0.53);
+  border: 3px solid #443D34;
+  color: #B7B7B7;
+	width: 50%; 
+	margin: auto;
+}
+/* kolom */
+#kolom{
+	background: none repeat scroll 0 0 rgba(255, 0, 10, 0.4);
+	width:50%;
+	border: 3px solid #443D34;
+	margin: auto;
+}
+/* socialmedia - inside kolom - gebaseerd op de website van Steven Kema(s2068222) */
+#socialmedia {
+	margin-left: 35%;
+	margin-right: 35%;
+	display: inline;
+}	
+p.social {
+	display:inline;
+}
+
+/* footer */
+#footer{
+	background: none repeat scroll 0 0 rgba(255, 255, 3, 0.5);
+	width:50%;
+	border: 3px solid #443D34;
+	margin: auto;
+	height: 50px;
+}
+
+

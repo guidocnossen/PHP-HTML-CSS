@@ -1,0 +1,304 @@
+
+/* images used for the congres*/
+img.logo{
+display: block;
+margin-left: auto;
+margin-right: auto;
+}
+
+img.zaal{
+display: block;
+float: right;
+width: 50%;
+border: 1px solid #191970;
+}
+
+img.lezing{
+display: block;
+float: right;
+width: 50%;
+border: 1px solid #191970;
+}
+
+img.museum{
+display: block;
+float: right;
+width: 50%;
+border: 1px solid #191970
+}
+
+img.hotel{
+display: block;
+float: right;
+width: 40%;
+border: 1px solid #191970;
+}
+
+img.doutzen{
+display: inline-block;
+margin-left: auto;
+margin-right: auto;
+width: 100%;
+}
+
+/*Menu based on a menu from cssmenumakers.com*/
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,600,300);
+#menu {
+  font-family: Arial;
+  font-size: 13px;
+	font-weight: bold;
+  line-height: 15px;
+  text-transform: uppercase;
+}
+#menu > ul {
+  width: auto;
+	min-width: 600px;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  background: url(../images/friesevlag.png)top left no-repeat,
+	url(../images/friesevlag.png)top right no-repeat, black;
+  border: 1px solid #ece6e8;
+  border-bottom: 3px solid #d9ced2;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  -o-border-radius: 2px;
+  border-radius: 2px;
+	text-align: center;
+}
+#menu > ul li {
+	text-align: left;
+  display: inline-block;
+  *display: inline;
+  zoom: 1;
+}
+#menu > ul li.right {
+  float: right;
+}
+#menu > ul li.has-sub {
+  position: relative;
+}
+#menu > ul li.has-sub:hover ul {
+  display: block;
+}
+#menu > ul li.has-sub ul {
+	display: none;
+  width: 300px;
+  position: absolute;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  background: black;
+  border: 1px solid #ece6e8;
+  border-bottom: 3px solid #d9ced2;
+  border-top: 0 none;
+}
+#menu > ul li.has-sub ul li {
+  display: block;
+}
+#menu > ul li.has-sub > a {
+  background-image: url('images/caret.png');
+  background-repeat: no-repeat;
+  background-position: 90% -95%;
+}
+#menu > ul li.has-sub > a.active,
+#menu > ul li.has-sub > a:hover {
+  background:  #191970 url('images/caret.png') no-repeat;
+  background-position: 90% 195%;
+}
+#menu > ul li a {
+  display: block;
+  padding: 12px 24px 11px 24px;
+  text-decoration: none;
+  color: #ffffff;
+}
+#menu > ul li a.active,
+#menu > ul li a:hover {
+  background: #191970;
+  color: #ffffff;
+	text-shadow: 0px 1px 0px #000;
+}
+/*This part contains the different div's I used inside the webpage.
+These Div's are:
+- div Content
+- div Wrapper
+- div Section
+- div Sidesection 1 
+- div Sidesection 2
+- div Textbox*/
+
+hgroup{
+font-weight: bold;
+font-family: Sans-serif;
+color: red;
+text-align: center
+}
+
+#content{
+width: 100%;
+height: 100%;
+margin: auto;
+}
+
+#sidesection1{
+width: 12%;
+float: left;
+height: 800px;
+background-color:#191970;
+overflow: visible; 
+}
+
+#sidesection2{
+width: 12%;
+float: right;
+height: 800px;
+background-color:#191970;
+overflow: visible;
+}
+
+#wrapper{
+overflow: hidden;
+width: 70%;
+margin: auto; 
+color: red;
+font-family: Sans-serif;
+}
+
+#wrapper > hgroup{
+text-align: left
+}
+
+#section{
+float:left;
+border: 1px solid #191970;
+width:45%;
+font-family: Sans-serif;
+padding: 5px;
+background-color: white;
+color: red;
+}
+
+#section > hgroup{
+font-weight: bold;
+text-align: left;
+}
+
+#textbox{
+display: inline-block;
+width: 32%;
+border: 1px solid #191970;
+font-family: Sans-serif;
+color: red;
+padding: 4px;
+}
+
+/*Programma tabel and abstracts tabel- based on table design of Steven Kema
+- programma table*/
+.programma table { 
+  width: 100%; 
+  border-collapse: collapse; 
+}
+.programma tr:nth-of-type(odd) { 
+  background: #eee; 
+}
+.programma th { 
+  background: #191970; 
+  color: white; 
+  font-weight: bold; 
+}
+.programma td, th { 
+  padding: 6px; 
+  border: 1px solid #ccc; 
+  text-align: left; 
+}
+
+/*abstracts table*/
+
+.abstracts table {
+	background-color: #F3F3F3;
+	border-collapse: collapse;
+	width: 100%;
+}
+.abstracts tr:nth-of-type(odd) {
+	background-color: #E6E6E6;
+}
+
+.abstracts th {
+	background-color: #191970;
+	color: #FFF;
+	cursor: pointer;
+}
+
+.abstracts th small {
+	font-size: 9px; 
+}
+
+.abstracts td, th {
+	text-align: left;
+	border: 1px solid #ccc; 
+	padding: 6px;
+}
+
+.abstracts a {
+	text-decoration: none;
+}
+.abstracts td a {
+	color: red;
+	display: block;
+	padding: 5px 10px;
+}
+.abstracts th a {
+  padding-left: 0;
+	color: red;
+}
+.abstracts tr:hover td {
+	background-color:#191970;
+}
+
+.abstracts tr:hover td a {
+	color: white;
+}
+
+/* form appearance */
+form{
+width: 100%;
+}
+
+form > div > label{
+font-size: 20px;
+padding: 3px;
+width: 50%;
+float: left;
+}
+
+form > div > input{
+width: 60%;
+float: right;
+}
+
+form > div > div > input{
+width: 60%;
+float: right;
+}
+
+form > div > div > select{
+width: 60%;
+float: right;
+}
+
+@media only screen and (min-width: 640px) and (max-width: 1000px){
+
+#textbox{
+width: 99%;
+padding: 0px;
+
+}
+}
+
+@media only screen and (min-width: 1280px) and (max-width: 1400px){
+
+#textbox{
+width: 31%;
+padding: 8px;
+}
+}
