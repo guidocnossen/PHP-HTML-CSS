@@ -9,7 +9,7 @@
 <?php
 $servername = "mysql09.service.rug.nl";
 $username = "s2610833";
-$password = "xU6mWzqd";
+$password = "********";
 $dbname = "myDB";
 
 // Create connection
