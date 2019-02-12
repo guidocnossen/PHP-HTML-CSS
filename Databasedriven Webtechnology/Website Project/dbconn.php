@@ -5,7 +5,7 @@
 		'host' => 'mysql01.service.rug.nl',
 		'dbname' => 's2610833',
 		'user' => 's2610833',
-		'pass' => 'naez9joo3w' );
+		'pass' => '*********' );
 	
 	$db = new mysqli($database['host'], $database['user'], $database['pass'], $database['dbname']);
 
